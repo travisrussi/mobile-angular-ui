@@ -5,7 +5,7 @@
     "mcasimir <maurizio.cas@gmail.com>"
   ],
   "description": "Mobile UI for Bootstrap 3 and Angular JS",
-  "main": "dist/mobile-angular-ui.min.js",
+  "main": "dist/js/mobile-angular-ui.min.js",
   "keywords": [
     "mobile-angular-ui",
     "angularjs",
@@ -21,14 +21,13 @@
     "bower_components",
     "test",
     "tests",
-    "demo",
     "site",
     "experiments",
     "gh-pages",
     "tmp"
   ],
   "dependencies": {
-    "font-awesome": "~4.0.3",
+    "font-awesome": "~4.1.0",
     "bootstrap": "~3.1.1",
     "fastclick": "~1.0.0",
     "overthrow": "~0.7.0"
