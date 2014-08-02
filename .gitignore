@@ -1,11 +1,13 @@
 # Created by http://gitignore.io
 
 tmp
+cordova
 
 ### OSX ###
 .DS_Store
 .AppleDouble
 .LSOverride
+.idea
 Icon
 
 logo.ai
