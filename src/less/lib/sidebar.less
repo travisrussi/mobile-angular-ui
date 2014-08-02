@@ -6,7 +6,7 @@
   display: block;
   
   .translate3d(0, 0, 0);
-  .transition-transform(~"400ms ease");
+  .transition-transform(~"200ms ease");
 }
 
 .sidebar-left {
@@ -14,7 +14,7 @@
   width: @sidebar-left-width;
   left: 0;
   right: auto;
-  .transition(~"width 400ms ease");
+  .transition(~"width 200ms ease");
 }
 
 .sidebar-right {
@@ -23,25 +23,25 @@
   left: auto;
   right: 0;
   .opacity(1);
-  .transition(~"opacity  600ms cubic-bezier(1, 0, 1, 0), width 400ms ease");
+  .transition(~"opacity  600ms cubic-bezier(1, 0, 1, 0), width 200ms ease");
 }
 
 .sidebar-left-in .sidebar-right {
   z-index: -100;
   .opacity(0);
-  .transition(~"opacity  600ms cubic-bezier(1, 0, 1, 0), width 400ms ease");
+  .transition(~"opacity  600ms cubic-bezier(1, 0, 1, 0), width 200ms ease");
 }
 
 .sidebar-left-in .app {
   width: 100%;
   .translate3d(@sidebar-left-width, 0, 0);
-  .transition-transform(~"400ms ease");
+  .transition-transform(~"200ms ease");
 }
 
 .sidebar-right-in .app {
   width: 100%;
   .translate3d(-@sidebar-right-width, 0, 0);
-  .transition-transform(~"400ms ease");
+  .transition-transform(~"200ms ease");
 }
 
 .sidebar-header, .app-name {
